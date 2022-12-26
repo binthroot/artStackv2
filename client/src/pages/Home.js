@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import useAuth from '../auth/useAuth';
+import CreateRequest from '../components/CreateRequest'
 
 function Home() {
 	const { authed } = useAuth();
@@ -15,6 +16,7 @@ function Home() {
 					{authed && 'You are logged in.'}
 				</div>
 			</div>
+			<CreateRequest />
 		</div>
 	);
 }

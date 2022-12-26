@@ -7,6 +7,7 @@ const MongoStore = require('connect-mongo')(session);
 const logger = require('morgan');
 const connectDB = require('./config/database');
 const mainRoutes = require('./routes/main');
+const requestRoutes = require('./routes/request')
 
 const cors = require('cors');
 
@@ -57,6 +58,7 @@ if (process.env.NODE_ENV === 'production') {
 	});
 } else {
 	app.use('/', mainRoutes);
+	app.use('/request', requestRoutes)
 	//add additional routes here
 }
 

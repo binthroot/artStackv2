@@ -1,10 +1,13 @@
 # MERN - Auth - Template
 
-A template to use for full-stack MERN apps with authentication and MVC backend organization.
+A React implementation of my Trader Joe's Art Stack App. This app was built to help Trader Joe's
+marketing and art departments to stay up to date with price changes, missing signage, and better
+communication on project deadlines.
 
-**Link to project:** https://mern-auth-template-example.herokuapp.com/
+**Link to project:** To Be Deployed - Heroku
 
-<p align="center" ><img align="center" src="https://github.com/Blake-Larson/mern-auth-template/blob/main/client/src/assets/mern-auth-template-photo.png" alt="The inital view of Mern-Auth-Template" /></p>
+<p align="center" ><img align="center" src="" alt="The inital view of Project" /></p>
+// ToDo Image
 
 ## How It's Made:
 
